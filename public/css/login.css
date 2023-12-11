@@ -1,0 +1,76 @@
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+.input-group-text {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.invalid-feedback {
+    display: block;
+    margin-top: 5px;
+    color: #dc3545;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icheck-primary input {
+    display: none;
+}
+
+.icheck-primary label {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.icheck-primary label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.icheck-primary input:checked + label:before {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}

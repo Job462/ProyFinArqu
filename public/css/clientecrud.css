@@ -1,0 +1,78 @@
+.cont1{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.144);
+
+}
+
+h1 {
+    text-align: center;
+    color: #012A4A;
+}
+
+.btnop {
+    display: flex;
+    gap: 10px;
+}
+
+.btnop a.btn-warning,
+form button.btn-danger {
+    background-color: #89C2D9;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btnop a.btn-warning:hover,
+form button.btn-danger:hover {
+    background-color: #89C2D9;
+    transform: translate(5px, -5px);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th,
+.table td {
+    padding: 15px;
+    border-bottom: 1px solid #A9D6E5;
+}
+
+.table th {
+    background-color: #2C7DA0;
+    color: white;
+}
+
+.table tr:last-child td {
+    border-bottom: none;
+}
+
+.table td img {
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.table td img:hover {
+    transform: scale(1.2);
+}
+
+.container a.btn-primary{
+    background-color: #2A6F97;
+    border: 0;
+}

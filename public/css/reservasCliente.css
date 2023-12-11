@@ -1,0 +1,79 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    background-image: url('/images/fondo2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+    background: linear-gradient(180deg, rgba(205,222,227,1) 0%, rgba(175,193,213,1) 25%, rgba(128,147,157,1) 50%, rgba(94,125,172,1) 75%, rgba(85,108,139,1) 100%);
+    width: 500px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label{
+    font-size: larger;
+    line-height: 3;
+}
+
+h1{text-align: center;}
+.date-input-container {
+    position: relative;
+}
+
+.date-input-container input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.boton{
+    display: flex; 
+    justify-content: space-between;
+}
+button{
+    display: block;
+    width: 45%;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #879DBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #556C8B;
+}
+a{
+    font: 14px Arial;
+    width: 45%;
+    padding: 15px 0px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #879DBA;
+    text-decoration: none;
+    color:#fff;
+}
+a:hover{
+    background-color: #556C8B;
+}
+.bton{
+    display: flex; 
+    justify-content: center;
+    background-color: rgb(55, 63, 81);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
